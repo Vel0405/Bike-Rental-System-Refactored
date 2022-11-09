@@ -121,7 +121,7 @@ class Customer:
             print("this is not positive integer number")
             return -1
         try:
-            bike < 1
+            bike > 1
         except:
             print("Invalid Input, Number of bike should be positive integer ")
         else:
